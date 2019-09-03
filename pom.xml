@@ -11,7 +11,7 @@
   </repository>
   <snapshotRepository>
     <id>snapshots</id>
-    <nameSAMPLE_SNAP</name>
+    <name>SAMPLE_SNAP</name>
     <url>http://localhost:8081/repository/SAMPLE_SNAP/</url>
   </snapshotRepository>
 </distributionManagement>
