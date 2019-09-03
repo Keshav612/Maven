@@ -3,4 +3,16 @@
   <groupId>DemoMaven</groupId>
   <artifactId>DemoMavenforJenkins</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <distributionManagement>
+  <repository>
+    <id>releases</id>
+    <name>releases</name>
+    <url>http://localhost:8081/repository/releases/</url>
+  </repository>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <nameSAMPLE_SNAP</name>
+    <url>http://localhost:8081/repository/SAMPLE_SNAP/</url>
+  </snapshotRepository>
+</distributionManagement>
 </project>
